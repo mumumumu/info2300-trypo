@@ -1,0 +1,73 @@
+div#nav_bar{
+	position:relative;
+	top:10px;
+	text-align:center;
+	width:820px;
+}
+
+li#currentPage {
+	/*border-top: 4px solid #8CC63F;*/
+	border-top: 4px solid #F9B916;
+}
+li.notCurrentPage {
+	border-top:4px solid #FFFFFF;
+}
+ul#navigation { 
+	margin:0;
+	padding:0; 
+	list-style-type:none;
+}
+
+ul#navigation li { 
+	position:relative; 
+	float:left; 
+	/*border-top:4px solid #efefef;*/
+	margin-right: 15px;
+	margin-bottom:15px;
+	padding-right: 20px; 
+	padding-top: 5px;
+}
+
+ul#navigation .current { 
+	/*border-top:4px solid #3d496a;*/
+	/*border-top: 4px solid #8CC63F;*/
+	border-top: 4px solid #F9B916;
+}
+
+ul#navigation li:hover { 
+	/*border-top:4px solid #00AB00;*/
+	/*border-top: 4px solid #8CC63F;*/
+	border-top: 4px solid #F9B916;
+	
+}
+
+ul#navigation li a { 
+	color:#ffffff;
+	font:bold 13px Verdana, Georgia, "Times New Roman", Times, serif; 
+	padding:2px 2px; 
+	text-decoration:none; 
+}
+
+ul#navigation li a:hover { 
+	color:#ffffff; border:none; 
+}
+
+ul#navigation li span{ 
+	display:none; 
+	position:absolute; 
+	top:20px; 
+	left:2px; 
+	width:160px; 
+	font:normal 9px Verdana, Georgia, "Times New Roman", Times, serif; 
+	line-height: 15px; 
+}
+
+ul#navigation li a:hover span {
+	margin-top: 7px; 
+	display:block; 
+	color: #8895b8;
+}
+
+img {
+	border:0px;
+}

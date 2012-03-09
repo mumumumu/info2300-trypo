@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background-color:#1B325F;
+	font-family:Arial, Helvetica, sans-serif;
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+	
+a {
+	font-weight:bold;
+	color: #07511C;
+	text-decoration: none;
+}
+
+a:hover { 
+	color: #8CC63F;
+}
+
+div.header {
+	position:relative;
+	width:800px;
+	text-align:center;
+}
+
+div#logout{
+	position:relative;
+	float:right;
+	top:-2px;
+}
+
+div.main {
+	background-color:white;
+	clear:both;
+	padding-bottom:30px;
+	display:block;
+	top:10px;
+	position:relative;
+	width:800px;
+	margin-right: auto;
+	margin-left: auto;
+	border:3px solid #FFFFFF;
+	-webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+	
+}
+
+div.content {
+	background-color:white;
+	display:block;
+	float:right;
+	margin-left:25px;
+	width:520px;
+	min-height: 100%;
+	padding-top:10px;
+	padding-left: 0px;
+	padding-right: 10px;
+}
+
+div.content ul li { 
+	list-style-position:outside;
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+div.content ol li {
+	margin-left:25px;
+}
+
+div.contentSection {
+	text-align:left;
+}
+
+.staff { float: right;
+	background: #F9B916;
+	border: 1px solid #07511C;
+	padding: 5px;
+	-webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+		
+}
+#staff {
+	text-align: left;
+	float: left;
+	padding-left: 25px;
+}
+
+div.left {
+	background-color: white;
+	display:block;
+	float:left;
+	width:230px;
+	padding-left:10px;
+	padding-top: 10px;
+	border: 1px solid #666666;
+	-webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+}
+
+div.leftBox {
+	background-color:white;
+	margin-bottom:10px;
+	padding-left:5px;
+	padding-right:5px;
+	text-align:left;
+	width:220px;
+	-webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+}
+
+div.leftBox h3 { 
+	color: #1B325F;
+	border-bottom: 2px solid #F9B916;
+}
+
+div.button_container {
+	text-align:left;
+}
+
+div.field_container {
+	padding-bottom:3px;
+	text-align:left;
+	width:500px;
+}
+
+div#warning {
+	font-style:italic;
+}
+
+div#auditionRequirements ul li{
+	list-style-position:inside;
+	list-style-type:disc;
+	padding-left:0px;
+	padding-top:5px;
+	margin:0px;
+}
+
+div.post {
+	background-color:#FFFFAA;
+	padding:10px;
+}
+
+label {
+	width:150px;
+    float:left;
+    text-align:left;
+}
+
+div#register {
+	text-align:center;
+}
+
+h1, h2, h3 {
+	color:#1B325F;
+	margin:0px;
+	padding:0px;
+}
+
+div#member_login_box {
+	float:right;
+}
+
+div#login_box{
+	position:relative;
+	float:right;
+	background: #F9B916;
+	-webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+}
+
+div#login_box a {
+	text-decoration:none;
+	color: #1B325F;
+}
+
+div#login_box a:hover {
+color: #07511C;
+}
+
+#sign_in {
+	background: #F9B916;
+    padding:2px;
+    text-decoration:none;
+    font-weight:bold;
+    color:#1B325F;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+	
+}
+
+div#welcome {
+	clear:both;
+	margin-top:15px;
+	width:800px;
+}
+
+div#welcome p {
+	color:#F9B916;
+	float:left;
+}
+
+#logout {
+	float:right;
+}
+
+#forgotPassword {
+	font-size:12px;
+}
+
+#passwordStrength {
+	color:blue;
+}
+
+.upload {
+	float:right;	
+}
+
+div.photo{
+	width:200px;
+	height:200px;
+	
+	display:inline-table;
+    text-align:center;
+	margin:20px 20px 20px 20px
+}
+
+div.photo a img{
+    vertical-align:middle;
+}
